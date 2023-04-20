@@ -10,8 +10,8 @@
 .cabecalho nav{
     display: flex;
     justify-content: space-around;
-    width: 60%;
-    height: 100%;
+    width: 60vw;
+    height: 45vw;
     flex-wrap: wrap;
 }
 
@@ -27,8 +27,7 @@
     font-weight:700 ;
     color: #fff;
     text-align: center;
-    background-color: blue;
-    padding: 20% 0;
+    padding: 20vh 0;
 
 }
 

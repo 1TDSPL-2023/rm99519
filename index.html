@@ -61,7 +61,7 @@
     </nav>
 
     <div>
-        <form action="" method="get" onsubmit="return false">
+        <form action="/apelido" method="post" onsubmit="return true">
             <fieldset>
                 <legend>Contato</legend>
                 <div>
@@ -69,13 +69,14 @@
                     <input type="email" name="txtemail" id="idEmail" required placeholder="Email">
                 </div>
                 <div>
-                    <label for="">Nome</label>
-                    <input type="text" name="txtNome" id="idNome" required placeholder="Nome">
+                    <label for="idPass">Senha</label>
+                    <input type="password" name="txtPass" id="idPass" required placeholder="Senha">
                 </div>
                 <diV>
                     <input type="submit" value="Enviar">
                 </diV>
-                    <input type="" name=" ">
+                    <label for="idGrava">Guardar Dados</label>
+                    <input type="checkbox" name="txtGrava" id="idGrava" required >
             </fieldset>
         </form>
     </div>

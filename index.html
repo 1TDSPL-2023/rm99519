@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./css/estilo.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css">
     <script src="./JS/script.js" defer></script>
     <title>My Layout</title>
     <!-- <script>
@@ -92,23 +93,26 @@
     </nav>
 
     <div>
-        <form action="/apelido" method="post" onsubmit="return true">
+        <form action="index.html" method="get" onsubmit="return false">
             <fieldset>
-                <legend>Contato</legend>
+                <legend>Entrar</legend>
                 <div>
-                    <label for="">Email</label>
-                    <input type="email" name="txtemail" id="idEmail" required placeholder="Email">
+                    <label for="idEmail">Email</label>
+                    <input type="email" name="txtemail" id="idEmail" required placeholder="Email" pattern="[A-Za-z0-9]">
                 </div>
                 <div>
                     <label for="idPass">Senha</label>
-                    <input type="password" name="txtPass" id="idPass" required placeholder="Senha">
+                    <input type="password" name="txtPass" id="idPass" placeholder="Senha">
+                    <i class="fa fa-eye" aria-hidden="true"></i>
                 </div>
-                <diV>
-                    <input type="submit" value="Enviar">
-                </diV>
+                <div>
                     <label for="idGrava">Guardar Dados</label>
                     <input type="checkbox" name="txtGrava" id="idGrava" required >
-            </fieldset>
+                </div>
+                <div>
+                    <button type="submt" id="btnSubmit">Entrar</button>
+                </div>
+                </fieldset>
         </form>
     </div>
 

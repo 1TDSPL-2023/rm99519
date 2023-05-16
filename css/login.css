@@ -5,9 +5,8 @@
 }
 
 body{
-    width: 100%;
+    width: 100vw;
     height: 80vh;
-
 }
 
 .form{
@@ -15,11 +14,13 @@ body{
     height: 30%;
     margin: 0 auto;
 }
-input[type = 'text'], input[type='password']{
+
+input[type='text'],input[type='password']{
     width: 80%;
     margin: 1%;
     height: 30px;
 }
+
 button[type='submit']{
     display: block;
     width: 80%;
@@ -29,4 +30,26 @@ button[type='submit']{
     color: #fff;
     border: 1px none #dddddd;
     cursor: pointer;
+}
+
+.visor-calc input{
+    color: rgb(53, 34, 34);
+    background-color: rgba(0, 255, 200, 0.644);
+    border: 1px none #dddddd;
+    outline-color: #3b3737;
+    letter-spacing: 1px;
+    width: 100%;
+}
+
+.btn-calc{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto;
+}
+
+.btn-calc button{
+    flex-grow: 1;
+    flex-basis: 150px;
+    margin: 1% 1%;
 }

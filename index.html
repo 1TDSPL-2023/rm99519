@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/estilo.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css">
+    <script src="./JS/script.js" defer></script>
+    <title>My Layout</title>
+    <!-- <script>
+
+        //COMENTÁRIO DE LINHA
+
+        /*
+            COMENTÁRIO DE BLOCO
+        */
+
+        //Declarando variáveis com a palavra reservada ( var )
+        // var nr1 = 10;
+        // var nr2 = 5;
+
+        //Objetos que dão saida em informações no Javascript
+
+        //console.log(parâmetro) = Demonstra a saída no console da ferramenta do desenvolvedor.
+        // console.log(nr1 + nr2);
+        
+        //document.write(parâmetro) = Demonstra a saída na página html.
+        // document.write(nr1 + nr2);
+
+        //Atrelando um evento click à um elemento no HTML.
+        const h2Element = document.getElementById("titulo");
+
+        console.log(h2Element.textContent);
+    </> -->
+</head>
+<body>
+    <!-- Cabecalho -->
+    <!--header>img+nav>a*3[href=#]{Item-$}-->
+    <header class="cabecalho">
+        <img src="./img/logo.png" alt="Monitor de computador">
+        <nav>
+            <a href="#">Item-1</a>
+            <a href="#">Item-2</a>
+            <a href="#">Item-3</a>
+        </nav>
+    </header>
+
+    <h2 id="titulo" class="tit-sec">Seção de Fotos</h2>
+<!-- 
+    <script>
+        const h2Element = document.getElementById("titulo");
+        console.log(h2Element.textContent);
+    </script> -->
+<!--Conteudo-->
+<!--section.conteudo>div*6>img+p{Legenda}-->
+
+    <section class="conteudo">
+        <div>
+            <img src="./img/lobo1.jpg" alt="Lobo">
+            <p>Legenda</p>
+        </div>
+        <div>
+            <img src="./img/lobo2.jpg" alt="Lobo">
+            <p>Legenda</p>
+        </div>
+        <div>
+            <img src="./img/lobo3.jpg" alt="Lobo">
+            <p>Legenda</p>
+        </div>
+        <div>
+            <img src="./img/lobo4.jpg" alt="Lobo">
+            <p>Legenda</p>
+        </div>
+        <div>
+            <img src="./img/lobo5.jpg" alt="Lobo">
+            <p>Legenda</p>
+        </div>
+        <div>
+            <img src="./img/lobo6.jpg" alt="Lobo">
+            <p>Legenda</p>
+        </div>
+
+<!-- Rodape -->
+<footer class="rodape">
+
+    <h2>Fale Conosco</h2>
+
+    <nav>
+        <a href=""><img src="./img/social-1.png" alt="Logo github"></a>
+        <a href=""><img src="./img/social-2.png" alt="Logo facebook"></a>
+        <a href=""><img src="./img/social-3.png" alt="Logo twitter"></a>
+    </nav>
+
+    <div>
+        <form action="index.html" method="get" onsubmit="return false">
+            <fieldset>
+                <legend>Entrar</legend>
+                <div>
+                    <label for="idEmail">Email</label>
+                    <input type="email" name="txtemail" id="idEmail" required placeholder="Email" pattern="[A-Za-z0-9]">
+                </div>
+                <div>
+                    <label for="idPass">Senha</label>
+                    <input type="password" name="txtPass" id="idPass" placeholder="Senha">
+                    <i class="fa fa-eye" aria-hidden="true"></i>
+                </div>
+                <div>
+                    <label for="idGrava">Guardar Dados</label>
+                    <input type="checkbox" name="txtGrava" id="idGrava" required >
+                </div>
+                <div>
+                    <button type="submt" id="btnSubmit">Entrar</button>
+                </div>
+                </fieldset>
+        </form>
+        <div>
+           
+
+
+</footer>
+    </section>
+
+</body>
+</html>
